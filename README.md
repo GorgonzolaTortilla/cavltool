@@ -13,7 +13,7 @@ Download the *AVL Tool.zip* and unzip the contents.
 > - vanilla.avl
 > - sd7037.dat
 >
->The remaining files will be generated automatically.
+>Place these files in a folder together. The remaining files will be generated automatically.
 
 The resulting folder is ready for use and contains all the necessary files to get the user started. 
 
