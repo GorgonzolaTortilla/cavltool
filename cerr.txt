@@ -1,0 +1,798 @@
+Begin cerr error file
+Load geo called
+============ NEWLINE ============
+Plane Vanilla
+^ Potential flagged word
+False flag
+============ NEWLINE ============
+#Mach
+^ Comment
+============ NEWLINE ============
+ 0.0    
+Pass
+============ NEWLINE ============
+#IYsym   IZsym   Zsym
+^ Comment
+============ NEWLINE ============
+ 0       0       0.0
+Pass
+============ NEWLINE ============
+#Sref    Cref    Bref
+^ Comment
+============ NEWLINE ============
+ 9.0     0.9     10.0
+Pass
+============ NEWLINE ============
+#Xref    Yref    Zref
+^ Comment
+============ NEWLINE ============
+0.50     0.0     0.0
+Pass
+============ NEWLINE ============
+#
+^ Comment
+============ NEWLINE ============
+#
+^ Comment
+============ NEWLINE ============
+#====================================================================
+^ Comment
+============ NEWLINE ============
+SURFACE 
+^ Potential flagged word
+============ NEWLINE ============
+Wing 
+Geo handling called
+Surface
+Handling success!
+============ NEWLINE ============
+#Nchordwise  Cspace   Nspanwise   Sspace
+^ Comment
+============ NEWLINE ============
+8            1.0       12         1.0
+Pass
+============ NEWLINE ============
+#
+^ Comment
+============ NEWLINE ============
+YDUPLICATE
+^ Potential flagged word
+============ NEWLINE ============
+0.0
+Geo handling called
+Ydupl
+Tokenizing... success!
+Handling success!
+============ NEWLINE ============
+#
+^ Comment
+============ NEWLINE ============
+ANGLE
+^ Potential flagged word
+False flag
+============ NEWLINE ============
+2.0
+Pass
+============ NEWLINE ============
+#-------------------------------------------------------------
+^ Comment
+============ NEWLINE ============
+SECTION
+^ Potential flagged word
+============ NEWLINE ============
+#Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+^ Comment
+============ NEWLINE ============
+0.      0.     0.      1.0     0.0   0          0
+Geo handling called
+Section
+Tokenizing... success!
+Section added
+Handling success!
+Blank line #1
+============ NEWLINE ============
+
+Pass
+============ NEWLINE ============
+AFILE
+^ Potential flagged word
+False flag
+============ NEWLINE ============
+sd7037.dat
+^ Potential flagged word
+False flag
+Blank line #1
+============ NEWLINE ============
+
+Pass
+============ NEWLINE ============
+#Cname   Cgain  Xhinge  HingeVec     SgnDup
+^ Comment
+============ NEWLINE ============
+CONTROL
+^ Potential flagged word
+============ NEWLINE ============
+flap     1.0   0.75    0.0 0.0 0.0   1.0
+Geo handling called
+Control
+Attempting to extract name... success!
+Tokenizing... success!
+Saving control
+flap?=#NULL
+Creating new control... flap774778400success!
+Handling success!
+Blank line #1
+============ NEWLINE ============
+
+Pass
+============ NEWLINE ============
+CONTROL
+^ Potential flagged word
+============ NEWLINE ============
+aileron  -1.0   0.75    0.0 0.0 0.0  -1.0
+Geo handling called
+Control
+Attempting to extract name... success!
+Tokenizing... success!
+Saving control
+aileron?=#NULL
+aileron?=flap
+Creating new control... aileron774778400success!
+Handling success!
+Blank line #1
+============ NEWLINE ============
+
+Pass
+============ NEWLINE ============
+CLAF
+^ Potential flagged word
+False flag
+============ NEWLINE ============
+1.0
+Pass
+Blank line #1
+============ NEWLINE ============
+
+Pass
+============ NEWLINE ============
+DESIGN
+^ Potential flagged word
+False flag
+============ NEWLINE ============
+twist1 0
+^ Potential flagged word
+False flag
+Blank line #1
+============ NEWLINE ============
+
+Pass
+============ NEWLINE ============
+DESIGN
+^ Potential flagged word
+False flag
+============ NEWLINE ============
+rootinc 1.0
+^ Potential flagged word
+False flag
+============ NEWLINE ============
+#-------------------------------------------------------------
+^ Comment
+============ NEWLINE ============
+SECTION
+^ Potential flagged word
+============ NEWLINE ============
+#Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+^ Comment
+============ NEWLINE ============
+0.2     5.0    1.0     0.6     0.0   0          0
+Geo handling called
+Section
+Tokenizing... success!
+Section added
+Handling success!
+Blank line #1
+============ NEWLINE ============
+
+Pass
+============ NEWLINE ============
+AFILE
+^ Potential flagged word
+False flag
+============ NEWLINE ============
+sd7037.dat
+^ Potential flagged word
+False flag
+Blank line #1
+============ NEWLINE ============
+
+Pass
+============ NEWLINE ============
+#Cname   Cgain  Xhinge  HingeVec     SgnDup
+^ Comment
+============ NEWLINE ============
+CONTROL
+^ Potential flagged word
+============ NEWLINE ============
+flap     1.0   0.75    0.0 0.0 0.0   1.0
+Geo handling called
+Control
+Attempting to extract name... success!
+Tokenizing... success!
+Saving control
+flap?=#NULL
+flap?=flap
+Found duplicate control; adding points to existing control
+Handling success!
+Blank line #1
+============ NEWLINE ============
+
+Pass
+============ NEWLINE ============
+CONTROL
+^ Potential flagged word
+============ NEWLINE ============
+aileron  -1.0   0.75    0.0 0.0 0.0  -1.0
+Geo handling called
+Control
+Attempting to extract name... success!
+Tokenizing... success!
+Saving control
+aileron?=#NULL
+aileron?=flap
+aileron?=aileron
+Found duplicate control; adding points to existing control
+Handling success!
+============ NEWLINE ============
+#
+^ Comment
+============ NEWLINE ============
+CLAF
+^ Potential flagged word
+False flag
+============ NEWLINE ============
+1.0
+Pass
+Blank line #1
+============ NEWLINE ============
+
+Pass
+============ NEWLINE ============
+DESIGN
+^ Potential flagged word
+False flag
+============ NEWLINE ============
+twist1 1.0
+^ Potential flagged word
+False flag
+============ NEWLINE ============
+#====================================================================
+^ Comment
+============ NEWLINE ============
+SURFACE
+^ Potential flagged word
+============ NEWLINE ============
+H-stab
+Geo handling called
+Surface
+Handling success!
+============ NEWLINE ============
+#Nchordwise  Cspace   Nspanwise   Sspace
+^ Comment
+============ NEWLINE ============
+ 6           1.0      6           1.0
+Pass
+============ NEWLINE ============
+#
+^ Comment
+============ NEWLINE ============
+YDUPLICATE
+^ Potential flagged word
+============ NEWLINE ============
+0.0
+Geo handling called
+Ydupl
+Tokenizing... success!
+Handling success!
+============ NEWLINE ============
+#
+^ Comment
+============ NEWLINE ============
+TRANSLATE
+^ Potential flagged word
+============ NEWLINE ============
+4.0 0.0 0.0
+Geo handling called
+Translate
+Tokenizing... success!
+Handling success!
+============ NEWLINE ============
+#
+^ Comment
+============ NEWLINE ============
+#-------------------------------------------------------------
+^ Comment
+============ NEWLINE ============
+SECTION
+^ Potential flagged word
+============ NEWLINE ============
+#Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+^ Comment
+============ NEWLINE ============
+0.0     0.0    0.0     0.7     0.    0          0
+Geo handling called
+Section
+Tokenizing... success!
+Section added
+Handling success!
+Blank line #1
+============ NEWLINE ============
+
+Pass
+============ NEWLINE ============
+#Cname   Cgain  Xhinge  HingeVec     SgnDup
+^ Comment
+============ NEWLINE ============
+CONTROL
+^ Potential flagged word
+============ NEWLINE ============
+elevator 1.0    0.7     0.0 1.0 0.0  1.0
+Geo handling called
+Control
+Attempting to extract name... success!
+Tokenizing... success!
+Saving control
+elevator?=#NULL
+elevator?=flap
+elevator?=aileron
+Creating new control... elevator774778400success!
+Handling success!
+============ NEWLINE ============
+#-------------------------------------------------------------
+^ Comment
+============ NEWLINE ============
+SECTION
+^ Potential flagged word
+============ NEWLINE ============
+#Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+^ Comment
+============ NEWLINE ============
+0.14    1.25   0.0     0.42    0.    0          0
+Geo handling called
+Section
+Tokenizing... success!
+Section added
+Handling success!
+Blank line #1
+============ NEWLINE ============
+
+Pass
+============ NEWLINE ============
+#Cname   Cgain  Xhinge  HingeVec     SgnDup
+^ Comment
+============ NEWLINE ============
+CONTROL
+^ Potential flagged word
+============ NEWLINE ============
+elevator 1.0    0.7     0.0 1.0 0.0  1.0
+Geo handling called
+Control
+Attempting to extract name... success!
+Tokenizing... success!
+Saving control
+elevator?=#NULL
+elevator?=flap
+elevator?=aileron
+elevator?=elevator
+Found duplicate control; adding points to existing control
+Handling success!
+============ NEWLINE ============
+#
+^ Comment
+============ NEWLINE ============
+#====================================================================
+^ Comment
+============ NEWLINE ============
+SURFACE
+^ Potential flagged word
+============ NEWLINE ============
+V-stab
+Geo handling called
+Surface
+Handling success!
+============ NEWLINE ============
+#Nchordwise  Cspace    Nspanwise  Sspace
+^ Comment
+============ NEWLINE ============
+6            1.0       5          1.0
+Pass
+============ NEWLINE ============
+TRANSLATE 
+^ Potential flagged word
+============ NEWLINE ============
+4.0 0.0 0.0
+Geo handling called
+Translate
+Tokenizing... success!
+Handling success!
+============ NEWLINE ============
+#-------------------------------------------------------------
+^ Comment
+============ NEWLINE ============
+SECTION
+^ Potential flagged word
+============ NEWLINE ============
+#Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+^ Comment
+============ NEWLINE ============
+0.0     0.     0.0     0.7     0.    0          0
+Geo handling called
+Section
+Tokenizing... success!
+Section added
+Handling success!
+Blank line #1
+============ NEWLINE ============
+
+Pass
+============ NEWLINE ============
+#Cname   Cgain  Xhinge  HingeVec     SgnDup
+^ Comment
+============ NEWLINE ============
+CONTROL
+^ Potential flagged word
+============ NEWLINE ============
+rudder   1.0    0.5     0.0 0.0 1.0  1.0
+Geo handling called
+Control
+Attempting to extract name... success!
+Tokenizing... success!
+Saving control
+rudder?=#NULL
+rudder?=flap
+rudder?=aileron
+rudder?=elevator
+Creating new control... rudder774778400success!
+Handling success!
+============ NEWLINE ============
+#-------------------------------------------------------------
+^ Comment
+============ NEWLINE ============
+SECTION
+^ Potential flagged word
+============ NEWLINE ============
+#Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+^ Comment
+============ NEWLINE ============
+0.14    0.     1.0     0.42    0.    0          0
+Geo handling called
+Section
+Tokenizing... success!
+Section added
+Handling success!
+Blank line #1
+============ NEWLINE ============
+
+Pass
+============ NEWLINE ============
+#Cname   Cgain  Xhinge  HingeVec     SgnDup
+^ Comment
+============ NEWLINE ============
+CONTROL
+^ Potential flagged word
+============ NEWLINE ============
+rudder   1.0    0.5     0.0 0.0 1.0  1.0
+Geo handling called
+Control
+Attempting to extract name... success!
+Tokenizing... success!
+Saving control
+rudder?=#NULL
+rudder?=flap
+rudder?=aileron
+rudder?=elevator
+rudder?=rudder
+Found duplicate control; adding points to existing control
+Handling success!
+============ NEWLINE ============
+#-------------------------------------------------------------
+^ Comment
+Blank line #1
+============ NEWLINE ============
+
+Pass
+Blank line #2
+============ NEWLINE ============
+
+Pass
+Blank line #3
+============ NEWLINE ============
+
+Pass
+Blank line #4
+============ NEWLINE ============
+
+Pass
+Blank line #5
+============ NEWLINE ============
+
+Pass
+Blank line #6
+============ NEWLINE ============
+
+Pass
+Blank line #7
+============ NEWLINE ============
+
+Pass
+Blank line #8
+============ NEWLINE ============
+
+Pass
+Blank line #9
+============ NEWLINE ============
+
+Pass
+Blank line #10
+BlankLineCount exceeds blankLineMax; ending parsing
+Parsing loop ended
+Begin body segment generation
+| GenerateBodySegments called (surf)
+| | Applying transformations... success!
+| | Generating body segments from surface pointer... success!
+| | Applying duplication... success!
+| | Generating body segments from surface pointer... success!
+| Body segments created (surf)
+| GenerateBodySegments called (surf)
+| | Applying transformations... success!
+| | Generating body segments from surface pointer... success!
+| | Applying duplication... success!
+| | Generating body segments from surface pointer... success!
+| Body segments created (surf)
+| GenerateBodySegments called (surf)
+| | Applying transformations... success!
+| | Generating body segments from surface pointer... success!
+| Body segments created (surf)
+| GenerateBodySegments called (ctrl)
+| | Applying transformations... success!
+| | Generating body segments from control pointer... success!
+| | Applying duplication... success!
+| | Generating body segments from control pointer... success!
+| Body segments created (ctrl)
+| GenerateBodySegments called (ctrl)
+| | Applying transformations... success!
+| | Generating body segments from control pointer... success!
+| | Applying duplication... success!
+| | Generating body segments from control pointer... success!
+| Body segments created (ctrl)
+| GenerateBodySegments called (ctrl)
+| | Applying transformations... success!
+| | Generating body segments from control pointer... success!
+| | Applying duplication... success!
+| | Generating body segments from control pointer... success!
+| Body segments created (ctrl)
+| GenerateBodySegments called (ctrl)
+| | Applying transformations... success!
+| | Generating body segments from control pointer... success!
+| Body segments created (ctrl)
+End body segment generation
+Begin body segment rendering
+End body segment rendering
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit
+Begin draw geometry
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+End geometry unit

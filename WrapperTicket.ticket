@@ -1,0 +1,21 @@
+I
+> avl files
+vanilla.avl
+> output codes
+2 Alpha
+2 CLtot
+2 elevator
+2 CDind
+0 Cma
+0 Clb
+0 Cnb
+> avl commands
+a c 0.448723
+b b 0
+r r 0
+p p 0
+y y 0
+d1 d1 0
+d2 rm 0
+d3 pm 0
+d4 ym 0
